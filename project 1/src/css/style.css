@@ -1,0 +1,376 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-family: "Roboto", sans-serif;
+}
+
+.conteainer {
+  width: 1140px;
+  margin: 0 auto;
+}
+
+.main {
+  height: 800px;
+  background: url(../img/background.jpg) center center/cover no-repeat;
+  padding: 39px 0 62px 0;
+}
+
+.logo .logo_img {
+  display: block;
+  margin: 0 auto;
+}
+
+.logo .logo_text {
+  display: block;
+  margin-top: 21px;
+  font-size: 15px;
+  font-weight: 900;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.6;
+  letter-spacing: normal;
+  text-align: center;
+  color: #ffffff;
+}
+
+h1 {
+  margin-top: 53px;
+}
+
+.title {
+  margin-top: 30px;
+  font-family: Roboto;
+  font-size: 41px;
+  font-weight: 900;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 0.59;
+  letter-spacing: normal;
+  text-align: center;
+  color: #f9bf3b;
+}
+
+.title_big {
+  margin-top: 21px;
+  font-family: Roboto;
+  font-size: 80px;
+  font-weight: 900;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 0.3;
+  letter-spacing: normal;
+  text-align: center;
+  color: #ffffff;
+}
+
+.promo_text {
+  margin-top: 23px;
+  text-align: center;
+  font-family: Roboto;
+  font-size: 21px;
+  font-weight: 300;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.33;
+  letter-spacing: normal;
+  color: #ffffff;
+}
+
+span {
+  font-weight: bold;
+  color: #f9bf3b;
+}
+
+.promo_btn {
+  display: block;
+  margin: 0 auto;
+  width: 313px;
+  height: 72px;
+  box-shadow: inset 0px 0 0 0 rgba(0, 0, 0, 0.18);
+  border: solid 4px rgba(0, 0, 0, 0.23);
+  background-image: linear-gradient(to top, #2798b9, #3ab6da);
+  margin-top: 73px;
+  font-family: Roboto;
+  font-size: 21px;
+  font-weight: normal;
+  font-stretch: condensed;
+  font-style: normal;
+  line-height: 1.14;
+  letter-spacing: normal;
+  text-align: center;
+  color: #ffffff;
+  cursor: pointer;
+  outline: none;
+}
+
+.more_text {
+  font-family: Roboto;
+  font-size: 15px;
+  font-weight: 100;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.6;
+  letter-spacing: normal;
+  text-align: center;
+  color: #ffffff;
+  margin-top: 73px;
+}
+
+.more_down {
+  display: block;
+  margin: 0 auto;
+  margin-top: 13px;
+}
+
+.waiting {
+  height: 604px;
+  padding: 85px 0px 75px 0px;
+  background-color: #efefef;
+}
+
+.waiting .waiting_header,
+.finishid_header {
+  text-align: center;
+  font-family: Roboto;
+  font-size: 30px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 0.4;
+  letter-spacing: normal;
+  text-align: center;
+  color: #252525;
+}
+
+.finishid_header {
+  color: #ffffff;
+}
+
+.waiting .waiting_divider,
+.finishid_divider {
+  display: block;
+  margin: 0 auto;
+  margin-top: 18px;
+  width: 217px;
+  height: 4px;
+  margin-top: 18px;
+  background-color: #f9bf3b;
+}
+
+.waiting .sub_header {
+  margin-top: 18px;
+  font-family: Roboto;
+  font-size: 23px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 0.87;
+  letter-spacing: normal;
+  text-align: center;
+  color: #4a4a4a;
+}
+
+.waiting .waiting_descr {
+  text-align: center;
+  font-family: Roboto;
+  font-size: 15px;
+  font-weight: 300;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.4;
+  letter-spacing: normal;
+  text-align: center;
+  color: #4a4a4a;
+  margin-top: 33px;
+}
+
+.waiting_wrapper {
+  margin-top: 45px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.waiting_item {
+  width: 339px;
+}
+
+.optimization {
+  position: relative;
+  min-height: 550px;
+}
+
+.optimization .optimization_header {
+  margin-top: 102px;
+  margin-left: 391px;
+  font-family: Roboto;
+  font-size: 30px;
+  font-weight: 900;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 0.4;
+  letter-spacing: normal;
+  text-align: left;
+  color: #299cbd;
+}
+
+.optimization .optimization_text {
+  margin-left: 391px;
+  margin-top: 25px;
+  font-family: Roboto;
+  font-size: 17px;
+  font-weight: 300;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.59;
+  letter-spacing: normal;
+  text-align: justify;
+  color: #4a4a4a;
+}
+
+.optimization .optimization_text span {
+  font-weight: bold;
+  color: #4a4a4a;
+}
+
+.optimization .optimization_img {
+  position: absolute;
+  top: -54px;
+  left: -240px;
+  z-index: -1;
+}
+
+.finishid {
+  padding: 86px 0 79px 0;
+  min-height: 447px;
+  background: url(../img/finish/finishing.png) center center/cover no-repeat;
+}
+
+.finishid .finishid_wrapper {
+  margin-top: 41px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.finishid .finishid_wrapper .finishid_item {
+  width: 204px;
+}
+
+.finishid .finishid_wrapper .finishid_item .finishid_round {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  width: 115px;
+  height: 115px;
+  background-color: #b4e2ff;
+  border-radius: 100%;
+}
+
+.finishid_item .finishid_descr {
+  margin-top: 25px;
+  font-family: Roboto;
+  font-size: 17px;
+  font-weight: 300;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.18;
+  letter-spacing: normal;
+  text-align: center;
+  color: #efefef;
+}
+
+.present {
+  padding: 86px 0 87px 0;
+  min-height: 628px;
+  background-color: #efefef;
+}
+
+.present .present_descr {
+  margin-top: 42px;
+  font-family: Roboto;
+  font-size: 30px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.43;
+  letter-spacing: normal;
+  text-align: center;
+  color: #252525;
+}
+
+.present .present_img {
+  display: block;
+  margin: 0 auto;
+}
+
+.vibinar {
+  padding: 89px 0 64px 0;
+  min-height: 515px;
+}
+
+.vibinar .vibinar_img {
+  display: block;
+  margin: 0 auto;
+}
+.vibinar .vibinar_first {
+  margin-top: 37px;
+  font-family: Roboto;
+  font-size: 30px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 0.4;
+  letter-spacing: normal;
+  text-align: center;
+  color: #252525;
+}
+
+.vibinar .vibinar_event {
+  margin-top: 30px;
+  font-family: Roboto;
+  font-size: 36px;
+  font-weight: 900;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 0.33;
+  letter-spacing: normal;
+  text-align: center;
+  color: #299cbd;
+}
+
+.vibinar .vibinar_descr {
+  margin-top: 25px;
+  font-family: Roboto;
+  font-size: 23px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 0.87;
+  letter-spacing: normal;
+  text-align: center;
+  color: #4a4a4a;
+}
+
+.footer {
+  min-height: 166px;
+  padding: 61px 0 69px 0;
+  background-color: #1a1a1a;
+}
+.footer .footer_link {
+  font-family: Roboto;
+  font-size: 15px;
+  font-weight: 300;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.4;
+  letter-spacing: normal;
+  text-align: center;
+  color: #888888;
+}
+a {
+  color: #888888;
+}
